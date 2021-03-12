@@ -1,0 +1,18 @@
+.form {
+    width: 50%;
+    margin: 50px auto auto auto;
+}
+.display-block {
+    display: block;
+}
+.input {
+    margin: 10px 0;
+}
+.label {
+    display: inline-block;
+    min-width: 150px
+}
+.error {
+    color: #e74c3c;
+    padding-left: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript"
+			src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js">
+	</script>
+</head>
+<body>
+	<form method="post" class="form" id="form">
+		<h4>Tất cả input không được để trống</h4>
+		<div class="input-aria">
+			<label class="label" for="name">Tên</label>
+			<input id="name" type="text" value="" name="name" class="input" placeholder="Nhập tên ...">
+		</div>
+		<div class="input-aria">
+			<label class="label" for="age">Tuổi</label>
+			<input id="age" type="text" value="" name="age" class="input" placeholder="Nhập tuổi ...">
+		</div>
+		<div class="input-aria">
+			<label class="label" for="email">Email</label>
+			<input id="email" type="text" value="" name="email" class="input" placeholder="Nhập email ...">
+		</div>
+		<div class="input-aria">
+			<label class="label" for="phone">Số điện thoại</label>
+			<input id="phone" type="text" value="" name="phone" class="input"
+				   placeholder="Nhập số điện thoại ...">
+		</div>
+		<button class="display-block input" id="check" type="submit" >Enter</button>
+	</form>
+	<script src="main.js"></script>
+</body>
+</html>
